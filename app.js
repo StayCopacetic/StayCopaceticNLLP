@@ -5,8 +5,6 @@ const app = express();
 
 require("dotenv").config();
 
-// console.log(process.env);
-
 const api_key = process.env.API_KEY;
 const audienceID = process.env.AUDIENCEID;
 
