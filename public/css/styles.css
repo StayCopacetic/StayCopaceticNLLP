@@ -1,0 +1,59 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #000000;
+}
+
+h1 {
+    color: #3F0071;
+    font-family: 'Bebas Neue', cursive;
+}
+
+p {
+    color: #FB2576;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.btn {
+    color: #3F0071;
+    background-color: #000000;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.form-signin {
+    max-width: 350px;
+    padding: 15px;
+}
+
+/* .form-signin .form-floating:focus-within {
+    z-index: 2;
+} */
+
+.cartoonMe {
+    border-radius: 50%;
+    /* margin-bottom: 10px; */
+}
+
+.form-control.top {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-control.middle {
+    border-radius: 0;
+}
+
+.form-control.bottom {
+    margin-top: -1px;
+    margin-bottom: 20px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
