@@ -8,7 +8,6 @@ require("dotenv").config();
 const api_key = process.env.API_KEY;
 const audienceID = process.env.AUDIENCEID;
 
-
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({
     extended: true
